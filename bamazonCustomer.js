@@ -17,7 +17,6 @@ connection.connect(function (err) {
     productItem();
 })
 
-
 function productItem(){
     connection.query("SELECT * FROM products", function (err,res) {
         if(err) throw err;
@@ -37,3 +36,4 @@ var table = new Table ({
    
       });
 }
+
