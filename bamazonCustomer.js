@@ -30,3 +30,10 @@ var table = new Table ({
         head: ['blue'],
         compmact: true}
     });
+   for (var i = 0; i < res.length; i++){
+       table.push([res[i].id, res[i].product_name, res[i].department_name, res[i].price, res[i].stock_quantity])
+   }
+       console.log(table.toString());
+   
+      });
+}
