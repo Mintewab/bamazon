@@ -10,7 +10,7 @@
 
 ## Screenshoots of the liri node app
 
-![GitHub Logo](/images/saleitems.PNG)
+![GitHub Logo](/images/saleltems.PNG)
 
 
 ##Author
