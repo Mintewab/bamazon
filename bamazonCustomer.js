@@ -21,4 +21,12 @@ connection.connect(function (err) {
 function productItem(){
     connection.query("SELECT * FROM products", function (err,res) {
         if(err) throw err;
- 
+    
+
+var table = new Table ({
+    head: ['Id',"Product_name", "Department_name", "Price","Stock_quantity"],
+    colWidths:[12,40,30, 10, 20],
+    style:{
+        head: ['blue'],
+        compmact: true}
+    });
